@@ -4,8 +4,11 @@ const Skills = [
     {title:'JavaScript', img: '/assets/js.png', classN: 'js', color: '#f58233'},
     {title:'jQuery', img: '/assets/jquery.png', classN: 'jquery', color: '#193556'},
     {title:'Reactjs', img: '/assets/react.png', classN: 'react', color: '#05a5d1'},
+    {title:'Redux', img: '/assets/redux.png', classN: 'redux', color: '#764abc'},
     {title:'GitHub', img: '/assets/github.png', classN: 'github', color: 'black'},
     {title:'Adobe Photoshop', img: '/assets/ps.png', classN: 'ps', color: '#46befd'},
+    {title:'NextJs', img: '/assets/nextjs.png', classN: 'next', color: 'black'},
+    {title:'MQL4', img: '/assets/mql4.png', classN: 'mql', color: '#6981ad'},
 ];
 
 

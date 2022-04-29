@@ -21,7 +21,8 @@ const About = () =>{
             <h1 className="title2">My Skills?</h1>
             <p className="info">
                 I have about 2 years of experience with frontend web development and its 
-                 technologies such as HTML5, CSS3, JavaScript, jQuery, React, GitHub and Adobe Photoshop.
+                 technologies such as HTML5, CSS3, JavaScript, jQuery, React, Redux,
+                  GitHub, Adobe Photoshop, NextJs and MQL4
                 I can provide clean code for a responsive web page accessible to all users 
                 regardless of their device.
             </p>
