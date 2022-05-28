@@ -1,16 +1,18 @@
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useNavigate } from "react-router-dom";
 
 const Header = () =>{
+    const navigate = useNavigate();
+    
 	return <header>
         <nav>
-            <img src="/assets/logo.png" alt="Logo" />
+            <img src="/assets/logo.png" alt="Logo" onClick={()=> navigate('/')}/>
 
             <div className="nav-links">
                 <ul>
-                    <li><NavLink to='/' activeClass="active"> Home </NavLink></li>
-                    <li><NavLink to='/about' activeClass="active"> About </NavLink></li>
-                    <li><NavLink to='/contact' activeClass="active"> Contact </NavLink></li>
-                    <li><NavLink to='/projects' activeClass="active"> Projects </NavLink></li>
+                    <li><NavLink to='/' activeclass="active"> Home </NavLink></li>
+                    <li><NavLink to='/about' activeclass="active"> About </NavLink></li>
+                    <li><NavLink to='/contact' activeclass="active"> Contact </NavLink></li>
+                    <li><NavLink to='/projects' activeclass="active"> Projects </NavLink></li>
                 </ul>
             </div>
         </nav>
