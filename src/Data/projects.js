@@ -5,7 +5,7 @@ const Projects = [
         description: 'A React App that Generate Quotes using a public API'},
     {title:'NotePad', link: 'https://mynotepad-5e6a7.web.app/',
         description: 'A React App that allow you to write note, read, update and delete your notes (CRUD)'},
-    {title:'Portfolio', link: 'https://portfolio-f576a.web.app/',
+    {title:'Portfolio', link: 'https://ganiuportfolio.vercel.app/',
         description: 'My Frontend Web Development Portfolio'},
     {title:'Pub', link: 'https://pub-six.vercel.app',
         description: 'Pub is a side project about beers. The project was created using NextJs and API from https://punkapi.com.'},
