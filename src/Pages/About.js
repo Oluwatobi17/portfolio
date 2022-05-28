@@ -10,9 +10,12 @@ const About = () =>{
 
             <p className="info">
                 <strong>Hi, I am Ganiu Ibrahim Olalekan </strong>
-                and I'm a passionate Nigeria <strong>Frontend Web Developer</strong> who was born in year 2000. 
-                I am an undergraduate student in a prestigous university in my country, university
-                of Lagos where I am studying Geophysics.
+                and I'm a passionate Nigeria <strong>Frontend Web Developer</strong> Passionate
+                 and ever learning Web Developer with great interest in writing clean code. 
+                 I'm currently looking for the right opportunity to work in an environment that
+                  will help me progress into a Frontend Web Developer role using HTML5, CSS3, 
+                  Javascript ES6, jQuery, Reactjs, Redux, Nextjs, GitHub. I am always passionate
+                   about matching my  skills with project at hand to meet product requirements. 
                 
             </p>
             <br /><br /><br />
