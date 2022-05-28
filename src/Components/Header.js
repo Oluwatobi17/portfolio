@@ -22,7 +22,9 @@ const Header = () =>{
             <h1>Ganiu Ibrahim <span className="special">Olalekan</span> </h1>
             <h4>I'm a Frontend Web Developer.</h4>
 
-            <Link to='https://drive.google.com/file/d/15qThMO9rc10-ZdaMizNJjzunNVoYdHsB/view?usp=sharing'>Download Resume</Link>
+            <a href='https://drive.google.com/file/d/15qThMO9rc10-ZdaMizNJjzunNVoYdHsB/view?usp=sharing' target='_blank' rel='noreferrer'>
+                Download Resume
+            </a>
         </div>
 	</header>
 }
