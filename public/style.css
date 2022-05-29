@@ -269,7 +269,7 @@ main{
 .project-container:hover{
     transform: scale(1.1);
 }
-.project-container iframe{
+.project-container img{
     width: 100%;
     border: none;
     margin-bottom: 10px;
