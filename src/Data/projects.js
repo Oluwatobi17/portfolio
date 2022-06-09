@@ -29,6 +29,8 @@ const Projects = [
         description: 'A frontend Mentor landing page challenge using HTML5, CSS3 and Javascript'},
     {title:'Insure Landing Page', link: 'https://insure-landingpage-wine.vercel.app/', img: 'assets/Screenshot (35).png',
         description: 'A frontend Mentor landing page challenge using HTML5, CSS3 and Javascript'},
+    {title:'To-do List', link: 'https://dailytasks.vercel.app/', img: 'assets/Screenshot (59).png',
+        description: 'A simple To-do List App that have CRUD operations and stores the user\'s To-do on their machine'},
 ];
 
 
