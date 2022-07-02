@@ -13,10 +13,14 @@
 //         description: 'A frontend Mentor landing page challenge using HTML5, CSS3 and Javascript'},
 //     {title:'Insure Landing Page', link: 'https://insure-landingpage-wine.vercel.app/',
 //         description: 'A frontend Mentor landing page challenge using HTML5, CSS3 and Javascript'},
-// ];
+// ];https://spudstitches-demo.herokuapp.com/
 const Projects = [
     {title:'Missile Blog', link: 'https://missileblog.vercel.app/', img: 'assets/Screenshot (34).png',
         description: 'A React Blog that uses React Hooks, React Router V6, Firebase for database to perform CRUD operations'},
+    {title:'Davids Moving Co', link: 'https://www.davidsmovingco.com/', img: 'assets/Screenshot (73).png',
+        description: 'A Django app for a moving company available for hire'},
+    {title:'Spudstitches', link: '#', img: 'assets/Screenshot (79).png',
+        description: 'A Django app for an Ecommerce Firm called Spudstitches'},
     {title:'Quote Generator', link: 'https://quote-generator-niu5.onrender.com/', img: 'assets/Screenshot (40).png',
         description: 'A React App that Generate Quotes using a public API'},
     {title:'NotePad', link: 'https://mynotepad-5e6a7.web.app/', img: 'assets/Screenshot (39).png',

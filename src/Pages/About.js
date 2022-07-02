@@ -10,11 +10,11 @@ const About = () =>{
 
             <p className="info">
                 <strong>Hi, I am Ganiu Ibrahim Olalekan </strong>
-                and I'm a passionate Nigeria <strong>Frontend Web Developer</strong> Passionate
-                 and ever learning Web Developer with great interest in writing clean code. 
-                 I'm currently looking for the right opportunity to work in an environment that
-                  will help me progress into a Frontend Web Developer role using HTML5, CSS3, 
-                  Javascript ES6, jQuery, Reactjs, Redux, Nextjs, GitHub. I am always passionate
+                and I'm <strong>a Frontend Web Developer</strong> with ReactJs and NextJs,
+                <strong> a Backend Web Developer</strong> with Django, Python. Passionate
+                 and an ever learning Full Stack Web Developer with great interest in Finance & Technology and writing clean code. 
+                 I'm looking for the right opportunity to work in an environment that
+                  will help me progress into a Frontend or Backend Web Developer role. I am always passionate
                    about matching my  skills with project at hand to meet product requirements. 
                 
             </p>
@@ -23,11 +23,11 @@ const About = () =>{
 
             <h1 className="title2">My Skills?</h1>
             <p className="info">
-                I have about 3 years of experience with frontend web development and its 
-                 technologies such as HTML5, CSS3, JavaScript, jQuery, React, Redux,
-                  GitHub, Adobe Photoshop, NextJs and MQL4
-                I can provide clean code for a responsive web page accessible to all users 
-                regardless of their device.
+                I have 3+ years of experience with <strong>Frontend</strong> and <strong>Backend</strong> web development and its 
+                 technologies such as HTML5, CSS3, Python, JavaScript, jQuery, React, Redux, NextJs and Django. Also
+                  GitHub, Adobe Photoshop and MQL4.
+                I provide clean code for Expert Advisors, responsive web page accessible to all users 
+                regardless of their device and backend development.
             </p>
 
             <div className="skill-card">

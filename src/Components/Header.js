@@ -20,9 +20,9 @@ const Header = () =>{
         <div className="hero">
             <h5>Hello, my name is</h5>
             <h1>Ganiu Ibrahim <span className="special">Olalekan</span> </h1>
-            <h4>I'm a Frontend Web Developer.</h4>
+            <h4>I'm a Full Stack Web Developer and MQL4 Programmer.</h4>
 
-            <a href='https://drive.google.com/file/d/15qThMO9rc10-ZdaMizNJjzunNVoYdHsB/view?usp=sharing' target='_blank' rel='noreferrer'>
+            <a href='https://drive.google.com/file/d/1QBjFVx_yajbeVrekGVjqj-si-Ln9ubW_/view?usp=sharing' target='_blank' rel='noreferrer'>
                 Download Resume
             </a>
         </div>
