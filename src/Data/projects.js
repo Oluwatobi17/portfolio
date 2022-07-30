@@ -15,6 +15,8 @@
 //         description: 'A frontend Mentor landing page challenge using HTML5, CSS3 and Javascript'},
 // ];https://spudstitches-demo.herokuapp.com/
 const Projects = [
+    {title:'FxMonsters', link: 'https://fxmonsters.vercel.app/', img: 'assets/Screenshot (99).png',
+        description: 'An Ecommerce for Trading Robots (free and premium) and My MQL4 portfolio built with Nextjs and Django. All Forex traders and investors want to check it out'},
     {title:'Missile Blog', link: 'https://missileblog.vercel.app/', img: 'assets/Screenshot (34).png',
         description: 'A React Blog that uses React Hooks, React Router V6, Firebase for database to perform CRUD operations'},
     {title:'Davids Moving Co', link: 'https://www.davidsmovingco.com/', img: 'assets/Screenshot (73).png',
