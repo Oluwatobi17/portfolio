@@ -1,4 +1,4 @@
-import { NavLink, Link, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = () =>{
     const navigate = useNavigate();
@@ -10,7 +10,7 @@ const Header = () =>{
             <div className="nav-links">
                 <ul>
                     <li><NavLink to='/' activeclass="active"> Home </NavLink></li>
-                    <li><NavLink to='/about' activeclass="active"> About </NavLink></li>
+                    {/* <li><NavLink to='/about' activeclass="active"> About </NavLink></li> */}
                     <li><NavLink to='/contact' activeclass="active"> Contact </NavLink></li>
                     <li><NavLink to='/projects' activeclass="active"> Projects </NavLink></li>
                 </ul>
