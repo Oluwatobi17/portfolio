@@ -21,7 +21,7 @@ const About = () =>{
             <br /><br /><br />
             <h4 className="title1">My Specialty</h4>
 
-            <h1 className="title2">My Skills?</h1>
+            <h1 className="title2">My Stacks?</h1>
             <p className="info">
                 I have 3+ years of experience with <strong>Frontend</strong> and <strong>Backend</strong> web development and its 
                  technologies such as HTML5, CSS3, Python, JavaScript, jQuery, React, Redux, NextJs and Django. Also
@@ -39,9 +39,11 @@ const About = () =>{
 
             <h1 className="title2">Certificate</h1>
             <div className="education">
-                <div className="edu-card">High School Secondary Education</div>
-                <div className="edu-card">Diploma in Computer Science</div>
-                <div className="edu-card">Undergraduate</div>
+                <div className="edu-card">
+                    High School Secondary Education (Gbagada Senior Grammar School "2013-2016")
+                </div>
+                <div className="edu-card">Diploma in Computer Science (Faedat Tech College "2016-2017")</div>
+                <div className="edu-card">Undergraduate (University of Lagos "2018-present")</div>
             </div>
         </div>
 	</main>
