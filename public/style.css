@@ -1,5 +1,5 @@
 :root{
-    --primary: #bc4123;
+    --primary: hwb(12 14% 26%);
     --secondary: rgb(11, 23, 42);
     --tertiary: #463940;
     --fontColor: rgba(70, 57, 64, 0.5);
@@ -269,15 +269,29 @@ main{
 .project-container:hover{
     transform: scale(1.1);
 }
+.project-container > center{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.techused{
+    padding: 2px 8px;
+    color: rgb(188, 65, 35);
+    background-color: rgba(188, 65, 35, 0.1);
+    border-radius: 1px;
+    margin-right: 4px;
+    font-size: 11px;
+}
 .project-container img{
     width: 100%;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .project-container p{
     color: rgba(0, 0, 0, 0.5);
     height: 50px;
     text-overflow: ellipsis;
+    font-size: 14px;
 }
 .project-container h2{
     color: #191039;
@@ -285,8 +299,9 @@ main{
 }
 .project-container a{
     color: var(--primary);
+    font-size: 14px;
     transition: all 200ms ease-in;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 .project-container a:hover{
     border: 1px solid var(--primary);
