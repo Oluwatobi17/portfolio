@@ -8,7 +8,7 @@ const Project = (props) =>{
         <img src={img} alt="project preview"/>
 
         <center>
-            {skills.map(skill => <span title="Stack used for this project" className="techused">{skill}</span>)}
+            {skills.map((skill, index) => <span key={index} title="Stack used for this project" className="techused">{skill}</span>)}
         </center>
 
         <h2 title="Project Name">{title}</h2>

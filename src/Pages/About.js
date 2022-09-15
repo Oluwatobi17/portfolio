@@ -1,6 +1,7 @@
 import Skills, { Learning } from "../Data/skills";
 import SkillCard from '../Components/SkillCard';
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const About = () =>{
     useEffect(()=>{
@@ -43,6 +44,12 @@ const About = () =>{
 
             <div className="skill-card">
                 {Skills.map(skill => <SkillCard key={skill.classN} skill={skill} /> )}
+            </div>
+
+            <br />
+
+            <div className="seemore">
+                <Link to='/projects'> See Projects &#8250;&#8250; </Link>
             </div>
 
             <br/><br/>

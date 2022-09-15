@@ -14,7 +14,7 @@ const Portfolio = () =>{
         .then(res => res.json());
     }, []);
     return <div className="portfolio-container">
-        {Projects.map(project => <Project key={project.title} project={project} />)}
+        {Projects.map((project, index) => <Project key={index} project={project} />)}
     </div>
 }
 
